@@ -68,7 +68,7 @@
 
       <section class="page-one">
         <div class="container page-one-container">
-          <h2><!--Advantage--></h2>
+          <h2 class="visually-hidden"><!--Advantage--></h2>
           <ul class="page-one-list">
             <li class="page-one-item">
               <h3 class="page-one-inf">Strategy</h3>
@@ -114,8 +114,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="page-two-user">Mark Guerrero</h3>
-              <p class="page-two-user-work">Product Designer</p>
+              <div class="container-page-two">
+                <h3 class="page-two-user">Mark Guerrero</h3>
+                <p class="page-two-user-work">Product Designer</p>
+              </div>
             </li>
             <li class="page-two-list">
               <img
@@ -125,8 +127,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="page-two-user">Tom Ford</h3>
-              <p class="page-two-user-work">Frontend Developer</p>
+              <div class="container-page-two">
+                <h3 class="page-two-user">Tom Ford</h3>
+                <p class="page-two-user-work">Frontend Developer</p>
+              </div>
             </li>
             <li class="page-two-list">
               <img
@@ -136,8 +140,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="page-two-user">Camila Garcia</h3>
-              <p class="page-two-user-work">Marketing</p>
+              <div class="container-page-two">
+                <h3 class="page-two-user">Camila Garcia</h3>
+                <p class="page-two-user-work">Marketing</p>
+              </div>
             </li>
             <li class="page-two-list">
               <img
@@ -146,8 +152,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="page-two-user">Daniel Wilson</h3>
-              <p class="page-two-user-work">UI Designer</p>
+              <div class="container-page-two">
+                <h3 class="page-two-user">Daniel Wilson</h3>
+                <p class="page-two-user-work">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -157,65 +165,77 @@
         <div class="container page-three-container">
           <h2 class="page-portfolio">Our Portfolio</h2>
           <ul class="page-portfolio-list">
-            <li>
+            <li class="page-portfolio-catalog">
               <img
                 class="page-portfolio-foto"
                 src="./images/img-1.jpg"
                 alt="Banking App"
                 width="360"
               />
-              <h3 class="page-portfolio-inf">Banking App</h3>
-              <p class="page-portfolio-text">App</p>
+              <div class="page-portfolio-container">
+                <h3 class="page-portfolio-inf">Banking App</h3>
+                <p class="page-portfolio-text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="page-portfolio-catalog">
               <img
                 class="page-portfolio-foto"
                 src="./images/img-2.jpg"
                 alt="Cashless Payment"
                 width="360"
               />
-              <h3 class="page-portfolio-inf">Cashless Payment</h3>
-              <p class="page-portfolio-text">Marketing</p>
+              <div class="page-portfolio-container">
+                <h3 class="page-portfolio-inf">Cashless Payment</h3>
+                <p class="page-portfolio-text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="page-portfolio-catalog">
               <img
                 class="page-portfolio-foto"
                 src="./images/img-3.jpg"
                 alt="Meditation App"
                 width="360"
               />
-              <h3 class="page-portfolio-inf">Meditation App</h3>
-              <p class="page-portfolio-text">App</p>
+              <div class="page-portfolio-container">
+                <h3 class="page-portfolio-inf">Meditation App</h3>
+                <p class="page-portfolio-text">App</p>
+              </div>
             </li>
-            <li>
+            <li class="page-portfolio-catalog">
               <img
                 class="page-portfolio-foto"
                 src="./images/img-4.jpg"
                 alt="Taxi Service"
                 width="360"
               />
-              <h3 class="page-portfolio-inf">Taxi Service</h3>
-              <p class="page-portfolio-text">Marketing</p>
+              <div class="page-portfolio-container">
+                <h3 class="page-portfolio-inf">Taxi Service</h3>
+                <p class="page-portfolio-text">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="page-portfolio-catalog">
               <img
                 class="page-portfolio-foto"
                 src="./images/img-5.jpg"
                 alt="Screen Illustrations"
                 width="360"
               />
-              <h3 class="page-portfolio-inf">Screen Illustrations</h3>
-              <p class="page-portfolio-text">Design</p>
+              <div class="page-portfolio-container">
+                <h3 class="page-portfolio-inf">Screen Illustrations</h3>
+                <p class="page-portfolio-text">Design</p>
+              </div>
             </li>
-            <li>
+            <li class="page-portfolio-catalog">
               <img
                 class="page-portfolio-foto"
                 src="./images/img-6.jpg"
                 alt="Online Courses"
                 width="360"
               />
-              <h3 class="page-portfolio-inf">Online Courses</h3>
-              <p class="page-portfolio-text">Marketing</p>
+              <div class="page-portfolio-container">
+                <h3 class="page-portfolio-inf">Online Courses</h3>
+                <p class="page-portfolio-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -224,7 +244,7 @@
 
     <footer class="footer">
       <div class="container footer-container">
-        <a class="logo" href="./index.html"
+        <a class="logo logo-footer" href="./index.html"
           >Web<span class="logo-span-footer">Studio</span></a
         >
         <p class="footer-text">
