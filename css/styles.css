@@ -17,6 +17,9 @@ button {
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
+img {
+    display: block;
+}
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -89,9 +92,9 @@ h1, h2, h3, h4, h5, h6, p {
 .address-nav-mail:focus {
     color: #404bbf;
 }
-.container-page-head {
+.page-head {
     background-color: #2e2f42;
-    height: 600px;
+    padding: 188px 0;
 }
 .page-title {
     font-weight: 700px;
@@ -102,7 +105,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #fff;
     max-width: 496px;
     margin: 0 auto;
-    padding: 188px 0px 48px;
+    padding-bottom: 48px;
 }
 .button-link {
     font-family: "Roboto", sans-serif;
@@ -115,7 +118,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 4px;
     border: none;
     padding: 16px 32px;
-    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     margin: 0 auto;
     display: block;
@@ -135,7 +138,7 @@ h1, h2, h3, h4, h5, h6, p {
     border: 0;
     white-space: nowrap;
 }
-.page-one-container {
+.page-one {
     padding: 120px 0 120px;
 }
 .page-one-list {
@@ -167,8 +170,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .page-two {
     background-color: #f4f4fd;
-}
-.page-two-container {
     padding: 120px 0;
 }
 .page-two-inf {
@@ -179,7 +180,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .page-two-catalog {
     display: flex;
@@ -211,7 +212,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     color: #434455;
 }
-.page-three-container {
+.page-three {
     padding: 120px 0;
 }
 .page-portfolio {
@@ -222,7 +223,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .page-portfolio-list {
     display: flex;
@@ -254,11 +255,8 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .footer {
     background-color: #2e2f42;
-}
-.footer-container {
     padding: 100px 0;
 }
 .logo-footer {
@@ -276,6 +274,3 @@ h1, h2, h3, h4, h5, h6, p {
 .logo-span-footer {
     color: #f4f4fd;
 }
-
-
-
