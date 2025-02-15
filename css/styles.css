@@ -8,9 +8,35 @@ a {
 }
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 button {
     cursor: pointer;  
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.logo-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 .logo {
     font-style: normal;
@@ -22,10 +48,16 @@ button {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
 .logo .logo-span {
     color: #2e2f42;
 }
 .logo-nav-text {
+    padding: 24px 0;
+    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -38,8 +70,16 @@ button {
 }
 .address {
     font-style: normal;
+    margin-left: auto;
+}
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 .address-nav-mail {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -49,16 +89,21 @@ button {
 .address-nav-mail:focus {
     color: #404bbf;
 }
-.page-head {
+.container-page-head {
     background-color: #2e2f42;
+    height: 600px;
 }
 .page-title {
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    width: 496px;
+    margin: 0 auto;
+    padding-top: 188px;
+    padding-bottom: 48px;
 }
 .button-link {
     font-family: "Roboto", sans-serif;
@@ -66,12 +111,35 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     background-color: #4d5ae5;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    margin: 0 auto;
+    display: block;
 }
 .button-link:hover,
 .button-link:focus {
     background-color: #404bbf;
+}
+.page-one-container {
+    padding: 120px 0;
+}
+.page-one-list {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.page-one-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 264px;
+    height: 104px;
 }
 .page-one-inf {
     font-weight: 500;
@@ -90,6 +158,9 @@ button {
 .page-two {
     background-color: #f4f4fd;
 }
+.page-two-container {
+    padding: 0;
+}
 .page-two-inf {
     font-weight: 700;
     font-size: 36px;
@@ -98,6 +169,14 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+.page-two-catalog {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding-bottom: 120px;
 }
 .page-two-list {
     background-color: #FFFFFF
@@ -109,6 +188,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    padding: 32px 16px 8px 16px;
 }
 .page-two-user-work {
     font-weight: 400;
@@ -117,6 +197,10 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 32px;
+}
+.page-three-container {
+    padding: 0;
 }
 .page-portfolio {
     font-weight: 700;
@@ -126,6 +210,16 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+.page-portfolio-list {
+    display: flex;
+    row-gap: 48px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 120px;
 }
 .page-portfolio-inf {
     font-weight: 500;
@@ -133,6 +227,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 32px 16px 8px 16px;
 }
 .page-portfolio-text {
     font-weight: 400;
@@ -140,9 +235,22 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
+
+
+
+
+
 .footer {
     background-color: #2e2f42;
+}
+.footer-container {
+    height: 312px;
+    width: 264px;
+    padding: 100px 0;
+    margin: 0 auto;
 }
 .footer-text {
     font-weight: 400;
@@ -150,6 +258,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    margin-top: 16px;
 }
 .logo-span-footer {
     color: #f4f4fd;
